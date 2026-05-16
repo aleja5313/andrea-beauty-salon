@@ -1,0 +1,20 @@
+{% extends 'salon/base.html' %}
+{% block content %}
+
+<h1>Nuevo Servicio</h1>
+
+<form method="POST">
+
+    {% csrf_token %}
+
+    {{ form.as_p }}
+
+    <button class="btn btn-success">
+
+        Guardar
+
+    </button>
+
+</form>
+
+{% endblock %}

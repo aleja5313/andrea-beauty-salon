@@ -1,0 +1,19 @@
+{% extends 'salon/base.html' %}
+{% block content %}
+
+<h1>Eliminar Cita</h1>
+
+<p>¿Deseas eliminar esta cita?</p>
+
+<form method="POST">
+
+    {% csrf_token %}
+
+    <button class="btn btn-danger">
+
+        Confirmar
+
+    </button>
+</form>
+
+{% endblock %}
