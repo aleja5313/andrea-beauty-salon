@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-nb4pbmy^xbi7rz2jk-!c2-r7m8s!4uozv$!2fe-1231c93d%30
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    '.onrender.com',
+    '*',
 ]
 
 
